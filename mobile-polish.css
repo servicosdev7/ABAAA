@@ -1,0 +1,27 @@
+/* Mobile final pass: touch targets, focus visibility and stable image layout. */
+button, a, summary {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(173, 109, 92, .18);
+}
+
+summary:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 4px;
+}
+
+.specialty-card img,
+.about-day__visual img {
+  aspect-ratio: 1 / 1;
+}
+
+@media (max-width: 520px) {
+  .simple-menu nav,
+  .families-menu nav {
+    max-width: calc(100vw - 32px);
+  }
+
+  .simple-page h1,
+  .families-copy h1 {
+    overflow-wrap: anywhere;
+  }
+}

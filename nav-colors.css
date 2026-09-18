@@ -1,4 +1,5 @@
 /* Navegação compartilhada entre todas as páginas */
+@import url("mobile-polish.css");
 .site-header .nav-wrap>nav{gap:10px!important;align-items:center;flex-wrap:nowrap;position:relative;z-index:40}
 .site-header .nav-wrap>nav a{padding:10px 16px!important;border-radius:999px!important;font-size:13px!important;line-height:1!important;transition:transform .25s ease,filter .25s ease,box-shadow .25s ease}
 .site-header .nav-wrap>nav a:nth-child(1){background:#f5d87d!important}
