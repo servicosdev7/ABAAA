@@ -150,6 +150,14 @@
   .approach-layout { grid-template-columns: 1fr; }
   .approach-photo { width: min(620px, 100%); height: 360px; margin-left: auto; }
   .approach-ring, .approach-loop { opacity: .65; }
+  .assessment-inner { grid-template-columns: 1fr; gap: 42px; }
+  .assessment-copy > p, .assessment-points { max-width: 100%; }
+  .assessment-photo { width: 100%; height: min(430px, 60vw); min-height: 280px; }
+  .contact-first-inner { grid-template-columns: 1fr; gap: 36px; }
+  .contact-first-copy { order: 1; max-width: 100%; }
+  .contact-first-photo { order: 2; width: 100%; height: min(400px, 55vw); min-height: 260px; margin: 0 auto; }
+  .phone-mockup { order: 3; margin: 0 auto; }
+  .paper-plane { top: -68px; right: 0; font-size: 64px; }
 }
 @media (max-width: 900px) {
   .approach-header .nav-wrap { height: 76px; }
@@ -171,6 +179,17 @@
   .stage-card { min-height: 245px; }
   .stage-card::before, .stage-card::after { display: none; }
   .approach-note { margin-top: 36px; }
+  .assessment-section { padding: 64px 20px; }
+  .assessment-copy h2 { font-size: clamp(42px, 9vw, 64px); }
+  .assessment-copy > p { font-size: 17px; }
+  .assessment-points { gap: 10px; margin-top: 26px; }
+  .assessment-points li { min-height: 58px; gap: 16px; font-size: 15px; }
+  .point-icon { width: 54px; height: 54px; font-size: 23px; }
+  .contact-first-section { padding: 56px 20px; }
+  .contact-first-copy h2 { font-size: clamp(38px, 8vw, 58px); }
+  .contact-first-copy > p { margin-top: 16px; font-size: 17px; }
+  .contact-first-copy .button { margin-top: 26px; }
+  .phone-mockup { width: 200px; height: 410px; transform: rotate(0); }
 }
 @media (max-width: 520px) {
   .approach-header .nav-wrap { height: 70px; }
@@ -188,6 +207,23 @@
   .approach-ring { top: -100px; right: -190px; transform: scale(.75); }
   .approach-loop { top: -160px; right: -260px; transform: scale(.72) rotate(24deg); }
   .approach-orb { display: none; }
+  .assessment-section { padding: 52px 16px; }
+  .assessment-copy h2 { font-size: 38px; }
+  .assessment-copy > p { font-size: 16px; }
+  .assessment-points { margin-top: 22px; }
+  .assessment-points li { min-height: 52px; padding: 7px 16px 7px 0; font-size: 14px; }
+  .point-icon { width: 46px; height: 46px; font-size: 20px; }
+  .assessment-photo { height: 62vw; min-height: 220px; border-radius: 28px; }
+  .assessment-heart { display: none; }
+  .assessment-orb { display: none; }
+  .contact-first-section { padding: 46px 16px; }
+  .contact-first-copy h2 { font-size: 34px; }
+  .contact-first-copy > p { font-size: 16px; }
+  .contact-first-copy .button { width: 100%; }
+  .contact-first-photo { height: 58vw; min-height: 200px; border-radius: 28px; }
+  .phone-mockup { width: 168px; height: 344px; border-width: 6px; padding: 7px; }
+  .chat-bubble { font-size: 10px; }
+  .paper-plane { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
   .approach-copy, .stage-card, .approach-photo { animation: none; }

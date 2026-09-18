@@ -550,7 +550,7 @@
 .footer-brand p { max-width: 390px; margin: 24px 0 0; color: rgba(255,250,244,.72); font-size: 14px; line-height: 1.65; }
 .footer-column h3 { margin: 8px 0 20px; color: #f4c96f; font: 900 14px/1 "Nunito", sans-serif; letter-spacing: .08em; text-transform: uppercase; }
 .footer-column nav, .footer-column { display: flex; align-items: flex-start; flex-direction: column; gap: 12px; }
-.footer-column a, .footer-column address { color: rgba(255,250,244,.82); font-size: 14px; font-style: normal; line-height: 1.55; transition: color .25s ease; }
+.footer-column a, .footer-column address { color: rgba(255,250,244,.82); font-size: 14px; font-style: normal; line-height: 1.55; overflow-wrap: anywhere; transition: color .25s ease; }
 .footer-column a:hover { color: #fff; }
 .footer-bottom {
   display: flex;
@@ -690,7 +690,7 @@
   .footer-cta-wrap { padding: 50px 20px 0; }
   .footer-cta { align-items: flex-start; flex-direction: column; gap: 28px; padding: 46px 38px; }
   .footer-main { padding: 58px 20px 26px; }
-  .footer-grid { grid-template-columns: 1.3fr 1fr; gap: 42px 32px; }
+  .footer-grid { grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 42px 32px; }
   .footer-bottom { margin-top: 44px; }
 }
 @media (max-width: 520px) {
@@ -744,7 +744,7 @@
   .footer-cta h2 { font-size: 35px; }
   .footer-cta-button { width: 100%; min-height: 54px; padding: 14px 18px; font-size: 14px; }
   .footer-main { padding: 48px 16px 24px; }
-  .footer-grid { grid-template-columns: 1fr 1fr; gap: 36px 22px; }
+  .footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px 22px; }
   .footer-brand { grid-column: 1 / -1; }
   .footer-brand strong { font-size: 44px; }
   .footer-column:last-child { grid-column: 1 / -1; }
