@@ -1,0 +1,11 @@
+/* Navegação compartilhada entre todas as páginas */
+.site-header .nav-wrap>nav{gap:10px!important;align-items:center;flex-wrap:nowrap;position:relative;z-index:40}
+.site-header .nav-wrap>nav a{padding:10px 16px!important;border-radius:999px!important;font-size:13px!important;line-height:1!important;transition:transform .25s ease,filter .25s ease,box-shadow .25s ease}
+.site-header .nav-wrap>nav a:nth-child(1){background:#f5d87d!important}
+.site-header .nav-wrap>nav a:nth-child(2){background:#a8c5ae!important}
+.site-header .nav-wrap>nav a:nth-child(3){background:#c8bde3!important}
+.site-header .nav-wrap>nav a:nth-child(4){background:#ee947f!important}
+.site-header .nav-wrap>nav a:nth-child(5){background:#a7796d!important;color:#fff!important}
+.site-header .nav-wrap>nav a:hover{transform:translateY(-2px);filter:saturate(1.08);box-shadow:0 5px 12px #3b29341c}
+.site-header .nav-wrap>nav a.is-active{box-shadow:inset 0 0 0 2px rgba(59,41,52,.22)}
+@media(max-width:900px){.site-header .nav-wrap>nav{display:none}}

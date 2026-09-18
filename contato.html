@@ -1,0 +1,47 @@
+﻿<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Entre em contato com o Instituto ABA São Joaquim.">
+  <title>Contato | Instituto ABA São Joaquim</title>
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="nav-colors.css">
+  <link rel="stylesheet" href="pagina.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header simple-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html" aria-label="Instituto ABA São Joaquim — início"><strong>ABA</strong><span>Instituto<br>São Joaquim</span></a>
+      <nav aria-label="Navegação principal"><a href="index.html">Início</a><a href="sobre.html">Sobre</a><a href="abordagem.html">Abordagem</a><a href="especialidades.html">Especialidades</a><a class="is-active" href="contato.html">Contato</a></nav>
+      <details class="simple-menu"><summary>Menu <i aria-hidden="true"></i></summary><nav aria-label="Navegação móvel"><a href="index.html">Início</a><a href="sobre.html">Sobre</a><a href="abordagem.html">Abordagem</a><a href="especialidades.html">Especialidades</a><a href="contato.html">Contato</a></nav></details>
+      <a class="nav-button" href="https://wa.me/5511970195268">Falar com a equipe</a>
+    </div>
+  </header>
+  <main id="conteudo" class="simple-page contact-page">
+    <div class="contact-hero" aria-label="Nossa equipe está pronta para acolher sua família">
+      <img src="assets/images/contato-hero.png" alt="Profissional do Instituto ABA São Joaquim em atendimento remoto" width="2048" height="682" fetchpriority="high">
+    </div>
+    <div class="simple-inner">
+      <span class="simple-kicker">CONTATO</span>
+      <h1>Vamos nos<br><em>conhecer?</em></h1>
+      <p class="simple-lead">Um primeiro encontro para escutar sua família e apresentar os próximos passos.</p>
+      <div id="contato-dados" class="simple-grid contact-grid">
+        <article class="simple-card"><h2>Telefone e WhatsApp</h2><p><a href="tel:+5511970195268">(11) 97019-5268</a></p><a class="text-link" href="https://wa.me/5511970195268">Conversar pelo WhatsApp →</a></article>
+        <article class="simple-card"><h2>Onde estamos</h2><p>Rua Guararema, 374<br>Bosque da Saúde — São Paulo/SP</p></article>
+        <article class="simple-card"><h2>Mensagem</h2><p>Conte brevemente como podemos acolher sua família. Nossa equipe retornará para orientar a conversa inicial.</p></article>
+      </div>
+      <div class="social-links" aria-label="Redes sociais">
+        <a class="social-link social-link--whatsapp" href="https://wa.me/5511970195268" aria-label="Falar pelo WhatsApp">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .4 5.3.4 11.8c0 2.1.6 4.2 1.7 6L.3 24l6.4-1.7a11.8 11.8 0 0 0 5.4 1.3h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.3-6.1-3.5-8.3ZM12.2 21.6h-.1c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-3.8 1 1-3.7-.2-.3a9.8 9.8 0 1 1 8.2 4.5Zm5.4-7.3c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-1.6-.8-2.6-1.4-3.6-3.2-.3-.5.3-.5.8-1.7.1-.2.1-.4 0-.6 0-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1-1.1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5 1.9.8 2.6.9 3.5.8.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4Z"/></svg><span>WhatsApp</span>
+        </a>
+        <span class="social-link social-link--instagram" aria-label="Instagram do instituto — perfil a informar"><svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" class="social-dot"/></svg><span>Instagram</span></span>
+        <span class="social-link social-link--facebook" aria-label="Facebook do instituto — perfil a informar"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M14 8h3V4.5c-.5-.1-1.8-.2-3.4-.2-3.4 0-5.7 2.1-5.7 5.9v3.3H5v3.9h2.9V24h4.2v-6.6H15l.5-3.9h-3.4v-2.9c0-1.1.3-1.9 1.9-1.9Z"/></svg><span>Facebook</span></span>
+      </div>
+      <p class="contact-note">CNPJ 18.259.863/0001-43</p>
+    </div>
+  </main>
+  <script>document.querySelectorAll('.simple-menu a').forEach((link)=>link.addEventListener('click',()=>link.closest('details')?.removeAttribute('open')));</script>
+</body>
+</html>
